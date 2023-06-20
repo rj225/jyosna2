@@ -1,0 +1,43 @@
+#bg1::before{
+    content: "";
+    background: rgb(255, 218, 149) url(background/bg5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position:absolute;
+    opacity: 0.9;
+    z-index: -1;
+}
+#bg2::before{
+    content: "";
+    background: rgb(255, 218, 149) url(images/bgnew4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position:absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+#bg3::before{
+    content: "";
+    background: rgb(255, 218, 149) url(background/donation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position:absolute;
+    opacity: 0.4;
+    z-index: -1;
+}

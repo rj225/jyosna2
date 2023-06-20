@@ -1,0 +1,196 @@
+/* video background */
+.hero-video {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-video video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+
+
+  /* connection */
+#bg3::before{
+    content: "";
+    background: rgb(253, 165, 0) url(images/bg-4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/* achievements */
+
+/* 1st block */
+.after .card{
+    background-color: orange !important;
+    transition: all 1.5s;
+}
+.h-1{
+    position: absolute;
+     top: 50%;
+      left: 30%;
+}
+.main:hover .h-1{
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.mainbody{
+    opacity: 0;
+    transition: all 2s;
+}
+.main:hover .mainbody{
+    opacity: 1;
+    transition: all 1.5s;
+}
+
+
+/* 2nd block */
+
+.h-2{
+    position: absolute;
+     top: 50%;
+      left: 30%;
+}
+.main2:hover .h-2{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.mainbody2{
+    opacity: 0;
+    transition: all 2s;
+}
+.main2:hover .mainbody2{
+    opacity: 1;
+    transition: all 2s;
+}
+
+
+/* 3rd block */
+
+.h-3{
+    position: absolute;
+     top: 50%;
+      left: 30%;
+}
+.main3:hover .h-3{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.mainbody3{
+    opacity: 0;
+    transition: all 2s;
+}
+.main3:hover .mainbody3{
+    opacity: 1;
+    transition: all 2s;
+}
+
+
+/* 4th block */
+
+.h-4{
+    position: absolute;
+     top: 50%;
+      left: 30%;
+}
+.main4:hover .h-4{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.mainbody4{
+    opacity: 0;
+    transition: all 2s;
+}
+.main4:hover .mainbody4{
+    opacity: 1;
+    transition: all 2s;
+}
+
+
+/* 5th block */
+
+.h-5{
+    position: absolute;
+     top: 50%;
+      left: 30%;
+}
+.main5:hover .h-5{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.mainbody5{
+    opacity: 0;
+    transition: all 2s;
+}
+.main5:hover .mainbody5{
+    opacity: 1;
+    transition: all 2s;
+}
+/* 6th block */
+
+.h-6{
+    position: absolute;
+     top: 50%;
+      left: 30%;
+}
+.main6:hover .h-6{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.mainbody6{
+    opacity: 0;
+    transition: all 2s;
+}
+.main6:hover .mainbody6{
+    opacity: 1;
+    transition: all 2s;
+}
+
+/* social impact */
+#bg1::before{
+    content: "";
+    background: rgb(253, 165, 0) url(background/bg13.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+}
+/* other achievement */
+#bg7::before{
+    content: "";
+    background: rgb(253, 165, 0) url(background/bgnew2.png);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+}

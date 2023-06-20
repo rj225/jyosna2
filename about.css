@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+/* navbar */
+.active{
+    background-color: transparent !important;
+}
+/* header{
+    font-size: 1.4vw; 
+    border-bottom:0.1vh solid red;
+} */
+header ul li a.active::after{
+    content: " ";
+    width: 100%;
+    height: 0.2vw;
+    background: rgb(255, 98, 0);
+    position: absolute;
+    left: 0;
+    bottom: 0.5vh;
+}
+header ul li a{
+    position: relative;
+}
+header ul li a::after {
+    content: " ";
+    width: 0;
+    height: 0.2vw;
+    background: rgb(255, 98, 0);
+    position: absolute;
+    left: 0;
+    bottom: 0.5vh;
+    transition: 0.5s;
+}
+header ul li a:hover::after {
+    width: 100%;     
+}
+
+/* if we make navbar sticky then this can be applied */
+/* .header::before {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.6;
+    z-index: -1;
+} */
+
+
+.socialhov1:hover{
+    transition:all 600ms;
+    transform: translateY(-0.5vw);
+}
+.socialhov2:hover{
+    transition:all 600ms;
+    transform: translateY(-0.5vw);
+}
+.socialhov3:hover{
+    transition:all 600ms;
+    transform: translateY(-0.5vw);
+}
+.socialhov4:hover{
+    transition:all 600ms;
+    transform: translateY(-0.5vw);
+}
+
+
+/* about */
+#bg1::before{
+    content: "";
+    background: rgb(255, 218, 149) url(images/carousel-1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/* video background */
+#leadership-qualities {
+    position: relative;
+    height: 100%;
+  }
+
+  #video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .con {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #bg2::before{
+    content: "";
+    background: rgb(253, 165, 0) url(images/bgnew4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+#bg3::before{
+    content: "";
+    background: rgb(253, 165, 0) url(images/bg-4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
